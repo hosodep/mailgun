@@ -1,5 +1,5 @@
 <?php
-namespace katanyoo\mailgunmailer;
+namespace hosodep\mailgun;
 use Yii;
 use yii\base\InvalidConfigException;
 use yii\mail\BaseMailer;
@@ -29,7 +29,7 @@ class Mailer extends BaseMailer
 	 * [$messageClass description]
 	 * @var string message default class name.
 	 */
-	public $messageClass = 'katanyoo\mailgunmailer\Message';
+	public $messageClass = 'hosodep\mailgun\Message';
 	public $domain;
 	public $key;
 	public $fromAddress;
